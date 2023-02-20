@@ -8,12 +8,16 @@ Current configuration is for the Nucleo-G474RE board, though .ini file does cont
 
 ## To run
 
-``` pio run
+To compile the platformio project:
+
+```
+    pio run
 ```
 
-Compiles the pio project
+To upload the compiled project to the nucleo board:
 
-``` pio run --target upload
+```
+    pio run --target upload
 ```
 
-Uploads the compiled project to the nucleo board
+
